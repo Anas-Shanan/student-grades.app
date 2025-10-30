@@ -18,10 +18,10 @@
     "@types/node": "^20.14.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "mongoose": "^8.4.1"
+    "mongoose": "^8.4.1",
+    "tsx": "^4.10.0"
   },
   "devDependencies": {
-    "tsx": "^4.10.0",
     "typescript": "^5.4.5"
   }
 }
