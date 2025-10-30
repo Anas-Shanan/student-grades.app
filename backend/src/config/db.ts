@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const URL = process.env.MONGO_URL || "";
 console.log({ URL });
 
-mongoose.connection.on("error", (error) => {
+mongoose.connection.on("error", (error: Error) => {
   console.log("DB after initial connection:", error);
 });
 
